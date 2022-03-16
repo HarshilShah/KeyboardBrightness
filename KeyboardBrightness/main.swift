@@ -7,4 +7,4 @@
 
 import Cocoa
 
-NSApplication.shared.run()
+KeyboardBrightnessApplication.shared.run()

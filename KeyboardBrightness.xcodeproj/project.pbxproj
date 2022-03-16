@@ -10,6 +10,7 @@
 		E819980F27E1FF2F009E37B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E819980E27E1FF2F009E37B2 /* Assets.xcassets */; };
 		E819981A27E1FFE6009E37B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819981927E1FFE6009E37B2 /* main.swift */; };
 		E819981C27E2003C009E37B2 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819981B27E2003C009E37B2 /* Key.swift */; };
+		E819981E27E2005E009E37B2 /* KeyboardBrightnessApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		E819980E27E1FF2F009E37B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E819981927E1FFE6009E37B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E819981B27E2003C009E37B2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBrightnessApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				E819981927E1FFE6009E37B2 /* main.swift */,
+				E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */,
 				E819981B27E2003C009E37B2 /* Key.swift */,
 				E819980E27E1FF2F009E37B2 /* Assets.xcassets */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E819981A27E1FFE6009E37B2 /* main.swift in Sources */,
+				E819981E27E2005E009E37B2 /* KeyboardBrightnessApplication.swift in Sources */,
 				E819981C27E2003C009E37B2 /* Key.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +262,7 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSPrincipalClass = KeyboardBrightnessApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -283,7 +287,7 @@
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSPrincipalClass = KeyboardBrightnessApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

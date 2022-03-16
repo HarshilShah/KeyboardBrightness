@@ -19,6 +19,7 @@
 		E819981927E1FFE6009E37B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E819981B27E2003C009E37B2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBrightnessApplication.swift; sourceTree = "<group>"; };
+		E819981F27E200AA009E37B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 				E819981927E1FFE6009E37B2 /* main.swift */,
 				E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */,
 				E819981B27E2003C009E37B2 /* Key.swift */,
+				E819981F27E200AA009E37B2 /* Info.plist */,
 				E819980E27E1FF2F009E37B2 /* Assets.xcassets */,
 			);
 			path = KeyboardBrightness;
@@ -261,6 +263,7 @@
 				DEVELOPMENT_TEAM = 7TRWX579Z9;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyboardBrightness/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = KeyboardBrightnessApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -286,6 +289,7 @@
 				DEVELOPMENT_TEAM = 7TRWX579Z9;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyboardBrightness/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = KeyboardBrightnessApplication;
 				LD_RUNPATH_SEARCH_PATHS = (

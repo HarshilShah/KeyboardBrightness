@@ -20,6 +20,7 @@
 		E819981B27E2003C009E37B2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardBrightnessApplication.swift; sourceTree = "<group>"; };
 		E819981F27E200AA009E37B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E88A7FDA27E201A600D1B42C /* KeyboardBrightness.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyboardBrightness.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 				E819981D27E2005E009E37B2 /* KeyboardBrightnessApplication.swift */,
 				E819981B27E2003C009E37B2 /* Key.swift */,
 				E819981F27E200AA009E37B2 /* Info.plist */,
+				E88A7FDA27E201A600D1B42C /* KeyboardBrightness.entitlements */,
 				E819980E27E1FF2F009E37B2 /* Assets.xcassets */,
 			);
 			path = KeyboardBrightness;
@@ -257,11 +259,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardBrightness/KeyboardBrightness.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TRWX579Z9;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyboardBrightness/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -283,11 +286,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyboardBrightness/KeyboardBrightness.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7TRWX579Z9;
-				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KeyboardBrightness/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

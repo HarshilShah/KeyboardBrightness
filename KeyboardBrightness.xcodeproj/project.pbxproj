@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E819980727E1FF2E009E37B2 /* KeyboardBrightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardBrightness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819980727E1FF2E009E37B2 /* Keyboard Brightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Brightness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E819980E27E1FF2F009E37B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E819981927E1FFE6009E37B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E819981B27E2003C009E37B2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		E819980827E1FF2E009E37B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E819980727E1FF2E009E37B2 /* KeyboardBrightness.app */,
+				E819980727E1FF2E009E37B2 /* Keyboard Brightness.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E819980627E1FF2E009E37B2 /* KeyboardBrightness */ = {
+		E819980627E1FF2E009E37B2 /* Keyboard Brightness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E819981627E1FF2F009E37B2 /* Build configuration list for PBXNativeTarget "KeyboardBrightness" */;
+			buildConfigurationList = E819981627E1FF2F009E37B2 /* Build configuration list for PBXNativeTarget "Keyboard Brightness" */;
 			buildPhases = (
 				E819980327E1FF2E009E37B2 /* Sources */,
 				E819980427E1FF2E009E37B2 /* Frameworks */,
@@ -78,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = KeyboardBrightness;
+			name = "Keyboard Brightness";
 			productName = KeyboardBrightness;
-			productReference = E819980727E1FF2E009E37B2 /* KeyboardBrightness.app */;
+			productReference = E819980727E1FF2E009E37B2 /* Keyboard Brightness.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E819980627E1FF2E009E37B2 /* KeyboardBrightness */,
+				E819980627E1FF2E009E37B2 /* Keyboard Brightness */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E819981627E1FF2F009E37B2 /* Build configuration list for PBXNativeTarget "KeyboardBrightness" */ = {
+		E819981627E1FF2F009E37B2 /* Build configuration list for PBXNativeTarget "Keyboard Brightness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E819981727E1FF2F009E37B2 /* Debug */,

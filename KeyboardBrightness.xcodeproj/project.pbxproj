@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		E819980F27E1FF2F009E37B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E819980E27E1FF2F009E37B2 /* Assets.xcassets */; };
 		E819981A27E1FFE6009E37B2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819981927E1FFE6009E37B2 /* main.swift */; };
+		E819981C27E2003C009E37B2 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819981B27E2003C009E37B2 /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E819980727E1FF2E009E37B2 /* KeyboardBrightness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardBrightness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E819980E27E1FF2F009E37B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E819981927E1FFE6009E37B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E819981B27E2003C009E37B2 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				E819981927E1FFE6009E37B2 /* main.swift */,
+				E819981B27E2003C009E37B2 /* Key.swift */,
 				E819980E27E1FF2F009E37B2 /* Assets.xcassets */,
 			);
 			path = KeyboardBrightness;
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E819981A27E1FFE6009E37B2 /* main.swift in Sources */,
+				E819981C27E2003C009E37B2 /* Key.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
